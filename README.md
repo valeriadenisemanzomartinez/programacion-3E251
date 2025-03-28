@@ -1,6 +1,6 @@
 # programacion-3E251
 
-
-@valeriadenisemanzomartinez ➜ /workspaces/programacion-3E251 (main) $ 
+ 
+c++ main.cpp -o programa -lftxui-component -lftxui-dom -lftxui-screen -std=c++1
 
 ./programa
