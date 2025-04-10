@@ -14,3 +14,9 @@ run : $(EXE)
 
 clean : 
 	rm $(BIN)/*
+
+achivo: bin/archivo
+	./$<
+
+bin/archivo: scr/archivo.cpp
+	c++ $< -o $@ -I$(INCLUDE)
