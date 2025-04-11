@@ -20,3 +20,11 @@ achivo: bin/archivo
 
 bin/archivo: scr/archivo.cpp
 	c++ $< -o $@ -I$(INCLUDE)
+
+
+
+binario: bin/binario
+	./$<
+
+bin/archivo: scr/binario.cpp
+	c++ $< -o $@ -I$(INCLUDE)	
